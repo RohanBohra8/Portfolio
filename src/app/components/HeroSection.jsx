@@ -6,10 +6,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-white mb-4 text-4xl lg:text-6xl sm:text-5xl font-extrabold">
+        <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
+          <h1 className="text-white mb-4 text-4xl lg:text-6xl sm:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hello, I'm{" "}
             </span>{" "}
@@ -49,7 +49,7 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+        <div className="col-span-4 place-self-center mt-4 lg:mt-0">
           <div className="bg-[#181818] lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative">
             <Image
               src="/images/photo.png"
