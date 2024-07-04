@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-//to disable es lint i added this
-module.exports = {
+const nextConfig = {
     eslint: {
-      ignoreDuringBuilds: true,
-    },
-  };
+        ignoreDuringBuilds: true,
+      },
+};
+//to disable es lint i added this
 
 export default nextConfig;
