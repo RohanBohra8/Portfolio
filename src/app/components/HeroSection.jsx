@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import React from "react";
@@ -16,7 +15,7 @@ const HeroSection = () => {
             Rohan Bohra
             <br></br>
             An Aspiring
-            <br></br>  
+            <br></br>
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -33,10 +32,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg  lg:text-xl mb-6">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
-            ratione dolore. Eius, iusto. Vitae, a impedit! Reiciendis quis
-            delectus quo autem aliquam expedita ut eaque sapiente, porro,
-            eligendi fuga deserunt!
+            Hey everyone! currently at the end of my third year, pursuing
+            (B.Tech) in Information Technology from Maharaja Surajmal Institute
+            Of Technology. About my skills, I have been exposed to C++ and MySQL
+            in my School years. Currently, I possess curiosity about anything
+            regarding any new technology. Learning Data structures & Algorithms
+            and hope to maintain a good consistency in my coding journey.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
